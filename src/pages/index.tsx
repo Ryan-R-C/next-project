@@ -15,107 +15,133 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+        <div id="header">
+          <div id="bold-button"></div>
+          <div id="links">
+            <div className="button"></div>
+            <div className="button"></div>
+            <div className="button"></div>
+            <div className="button"></div>
           </div>
         </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
+        <div id="landing">
+          <div id="image"></div>
+          <div id="container">
+            <div id="text">
+              <div id="title"></div>
+              <div id="subtitle"></div>
+              <div id="description"></div>
+            </div>
+            <div id="buttons-container">
+              <div id="button-light"></div>
+              <div id="button-bold"></div>
+            </div>
           </div>
         </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
+        <div id="heroes">
+          <div className="hero-item"></div>
+          <div className="hero-item"></div>
+          <div className="hero-item"></div>
+          <div className="hero-item"></div>
+        </div>
+        <div id="image-grid">
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+        </div>
+        <div id="scroller-grid">
+          <div id="text-container">
+            <div id="title"></div>
+            <div id="description"></div>
+          </div>
+          <div id="scroller-container">
+            <div id="scroll-item"></div>
+            <div id="scroll-item"></div>
+            <div id="scroll-item"></div>
+            <div id="scroll-item"></div>
+          </div>
+        </div>
+        <div id="vertical-grid">
+          <div className="grid-item">
+            <div className="text-container">
+              <div id="title"></div>
+              <div id="description"></div>
+            </div>
+            <div id="image"></div>
+          </div>
+          <div className="grid-item">
+            <div className="text-container">
+              <div id="title"></div>
+              <div id="description"></div>
+            </div>
+            <div id="image"></div>
+          </div>
+          <div className="grid-item">
+            <div className="text-container">
+              <div id="title"></div>
+              <div id="description"></div>
+            </div>
+            <div id="image"></div>
+          </div>
+        </div>
+        <div id="featured-container">
+          <div id="text-container">
+            <div id="title"></div>
+            <div id="subtitle"></div>
+            <div id="button"></div></div>
+          <div id="image"></div>
+        </div>
+        <div id="div">
+          <div id="links">
+            <div id="image">
+              <div id="title"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+            </div>
+            <div id="learn">
+              <div id="title"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+            </div>
+            <div id="support">
+              <div id="title"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+            </div>
+            <div id="company">
+              <div id="title"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+            </div>
+            <div id="api">
+              <div id="title"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+            </div>
+            <div id="page-divs">
+              <div id="title"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+              <div className="link"></div>
+            </div>
+          </div>
+          <div id="container-buttons">
+            <div id="button-featured-container">
+              <div className="button-featured"></div>
+              <div className="button-featured"></div>
+              <div className="button-featured"></div>
+            </div>
+            <div id="container-default-buttons">  
+              <div className="button"></div>
+              <div className="button"></div>
+              <div className="button"></div>
+            </div>
+          </div>
         </div>
       </main>
     </>
