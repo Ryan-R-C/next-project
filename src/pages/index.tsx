@@ -15,44 +15,53 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div id="header">
+        <header id="header">
           <div id="bold-button"></div>
           <div id="links">
-            <div className="button"></div>
-            <div className="button"></div>
-            <div className="button"></div>
-            <div className="button"></div>
+            <button className="button"></button>
+            <button className="button"></button>
+            <button className="button"></button>
+            <button className="button"></button>
           </div>
-        </div>
-        <div id="landing">
+        </header>
+        <section id="landing">
           <div id="image"></div>
           <div id="container">
             <div id="text">
-              <div id="title"></div>
-              <div id="subtitle"></div>
-              <div id="description"></div>
+              <h1 id="title">
+                Lorem ipsum dolor sit amet consectetur.
+                </h1>
+              <h2 id="subtitle">Lorem ipsum dolor sit.
+              </h2>
+              <p id="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus cum ducimus minima, voluptate officiis commodi!
+              </p>
             </div>
             <div id="buttons-container">
               <div id="button-light"></div>
               <div id="button-bold"></div>
             </div>
           </div>
-        </div>
-        <div id="heroes">
+        </section>
+        <section id="heroes">
           <div className="hero-item"></div>
           <div className="hero-item"></div>
           <div className="hero-item"></div>
           <div className="hero-item"></div>
-        </div>
-        <div id="image-grid">
+        </section>
+        <section id="image-grid">
           <div className="image"></div>
           <div className="image"></div>
           <div className="image"></div>
-        </div>
-        <div id="scroller-grid">
+        </section>
+        <section id="scroller-grid">
           <div id="text-container">
-            <div id="title"></div>
-            <div id="description"></div>
+            <h2 id="title">
+              Lorem ipsum dolor sit amet consectetur.
+            </h2>
+            <p id="description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus cum ducimus minima, voluptate officiis commodi!
+            </p>
           </div>
           <div id="scroller-container">
             <div id="scroll-item"></div>
@@ -60,89 +69,150 @@ export default function Home() {
             <div id="scroll-item"></div>
             <div id="scroll-item"></div>
           </div>
-        </div>
-        <div id="vertical-grid">
+        </section>
+        <section id="vertical-grid">
           <div className="grid-item">
             <div className="text-container">
-              <div id="title"></div>
-              <div id="description"></div>
+              <h2 id="title">
+                Lorem ipsum dolor sit.
+              </h2>
+              <p id="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus cum ducimus minima, voluptate officiis commodi!
+              </p>
             </div>
             <div id="image"></div>
           </div>
           <div className="grid-item">
             <div className="text-container">
-              <div id="title"></div>
-              <div id="description"></div>
+              <h2 id="title">
+                Lorem ipsum dolor sit.
+              </h2>
+              <p id="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus cum ducimus minima, voluptate officiis commodi!
+              </p>
             </div>
             <div id="image"></div>
           </div>
           <div className="grid-item">
             <div className="text-container">
-              <div id="title"></div>
-              <div id="description"></div>
+              <div id="title">
+                Lorem ipsum dolor sit.
+              </div>
+              <p id="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus cum ducimus minima, voluptate officiis commodi!
+              </p>
             </div>
             <div id="image"></div>
           </div>
-        </div>
-        <div id="featured-container">
+        </section>
+        <section id="featured-container">
           <div id="text-container">
-            <div id="title"></div>
-            <div id="subtitle"></div>
-            <div id="button"></div></div>
+            <div id="title">Lorem ipsum dolor sit amet consectetur.</div>
+            <div id="subtitle">Lorem ipsum dolor sit.</div>
+            <button id="button"></button>
+          </div>
           <div id="image"></div>
-        </div>
-        <div id="div">
+        </section>
+        <section id="div">
           <div id="links">
             <div id="image">
               <div id="title"></div>
-              <div className="link"></div>
-              <div className="link"></div>
-              <div className="link"></div>
+              <ul>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+              </ul>
             </div>
             <div id="learn">
               <div id="title"></div>
-              <div className="link"></div>
-              <div className="link"></div>
-              <div className="link"></div>
+              <ul>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+              </ul>
             </div>
             <div id="support">
               <div id="title"></div>
-              <div className="link"></div>
-              <div className="link"></div>
-              <div className="link"></div>
+              <ul>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+              </ul>
             </div>
             <div id="company">
               <div id="title"></div>
-              <div className="link"></div>
-              <div className="link"></div>
-              <div className="link"></div>
+              <ul>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+              </ul>
             </div>
             <div id="api">
               <div id="title"></div>
-              <div className="link"></div>
-              <div className="link"></div>
-              <div className="link"></div>
+              <ul>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+              </ul>
             </div>
             <div id="page-divs">
               <div id="title"></div>
-              <div className="link"></div>
-              <div className="link"></div>
-              <div className="link"></div>
+              <ul>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+                <li className="link">
+                  <a href=""></a>
+                </li>
+              </ul>
             </div>
           </div>
           <div id="container-buttons">
             <div id="button-featured-container">
-              <div className="button-featured"></div>
-              <div className="button-featured"></div>
-              <div className="button-featured"></div>
+              <button className="button-featured"></button>
+              <button className="button-featured"></button>
+              <button className="button-featured"></button>
             </div>
             <div id="container-default-buttons">  
-              <div className="button"></div>
-              <div className="button"></div>
-              <div className="button"></div>
+              <button className="button"></button>
+              <button className="button"></button>
+              <button className="button"></button>
             </div>
           </div>
-        </div>
+        </section>
       </main>
     </>
   )
